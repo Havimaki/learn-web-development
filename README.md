@@ -1,16 +1,19 @@
 # learn-web-development
 An interactive lesson in Web Development.
 
+## How to navigate
+Traverse through the branches in order and read through each added document.
+*  `1-html` 
+*  `2-css`
+* `3-js`
+* `4-file-structure`
 
+
+
+---
 ## TODO:
 - src folder vs public folder
 - file suffix (.html, .css, .js)
-- HTML:
-  - <!doctype html>
-  - link
-  - script
-  - head (title, link)
-  - body (headaer, main div?, footer)
 - CSS
   - SASS
   - styled components
