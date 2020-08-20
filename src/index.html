@@ -1,16 +1,81 @@
 <!doctype html>
+<!-- 
+  <!doctype html>  declares that this is an HTML5 document. This informs the browser about the type and version of html, so that the browser knows how to handle it and load it properly. HTML stands for Hyper Text Markup Language. This is the markup language used for web pages.
+  Notice how this file ends with .html. This means the file will render as HTML in the browser.
+  -->
+
 <html>
+<!-- this is the root of the HTML document-->
 
 <head>
-  <title>Learn Web Development</title>
-  <link rel="stylesheet" href="styles.css">
-  <script src="scripts.js"></script>
-</head>
+  <!-- <head> handles all the meta data of the document, including links and scripts -->
+  <title>Learn Web Development</title> <!-- This will show up as the name of the tab in the browser -->
+  <link rel="stylesheet" href="styles.css"> <!-- this links the stylesheet to the document -->
+  <script src="scripts.js"></script> <!-- this links the script specified in the src to the document -->
+</head> <!-- notice here how there is another head tag, with a '/'. This specifies the end of the <head> block. -->
 
 <body>
-  <header></header>
-  <footer></footer>
-  </div>
+  <!-- <body>> specifies the body and contains all the contents of the HTML document -->
+
+  <header>
+    <h1>
+      This is a header tag.
+    </h1>
+    <!-- <header> normally contains the page logo, navigation, search bar, etc -->
+    <nav>
+      <!-- <nav> contains the navigation of the website -->
+    </nav>
+  </header>
+
+  <main>
+    <!-- <main> `represents` the main content of the body -->
+    <article>
+      <!-- <article> contains the navigation of the website -->
+
+      <h2>Alot of times, this will contain the second header.</h2>
+      <p> This is a paragraph tag.</p>
+      <img src="path/to/image" alt="This is the alt text. It would display on the page if the image doesn't load." />
+
+
+      <div>
+        <!-- <div> defines a section or container in an HTML document-->
+        <p>A div can hold anything in it. </p>
+        <img
+          src="https://images.unsplash.com/photo-1597855938383-61e62cbdeb9f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80"
+          alt="It can hold an image" />
+        <a href="http://www.linkgoeshere.com">It can even hold a link</a>
+        <a href="http://www.linkgoeshere.com">
+          <p>Also, any tags can go inside the anchor tag</p>
+        </a>
+        <a href="http://www.linkgoeshere.com">
+          <img
+            src="https://images.unsplash.com/photo-1597848480859-45fd003a3dc7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80"
+            alt="even an image can be a link" />
+        </a>
+      </div>
+    </article>
+
+    <aside>
+      <!-- <aside> `contains` the main content of the document -->
+      <ul>
+        <!-- This is an unordered list. Its list items would be bullet-pointed. -->
+        <li>This is the first bullet point.</li>
+        <li>This is the second bullet point.</li>
+      </ul>
+
+      <ol>
+        <!-- This is an ordered list. Its list items would be numbered. -->
+        <li>This is the first numbered point.</li>
+        <li>This is the second numbered point.</li>
+      </ol>
+
+    </aside>
+  </main>
+
+  <footer>
+    <!-- <footer> normally contains the copyright, page index, etc -->
+    <p>Copyright 2020.</p>
+  </footer>
 </body>
 
 </html>
