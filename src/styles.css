@@ -1,0 +1,156 @@
+/* 
+* This is a stylesheet. 
+* It's here that you can add key/value properties that dictate how elements
+* in the browser will appear. These properties are grouped by either tag, classes, or ids
+*/
+
+/* This is how you can import fonts */
+@import url("https://fonts.googleapis.com/css?family=Raleway:800|Merriweather+Sans|Share+Tech+Mono");
+
+/* Here we are adding the following styles to the html and body tags */
+html,
+body {
+  height: 100%; 
+  width: 100%;
+}
+
+/* You can add styles to one tag more than once. */
+body {
+  margin: 0;
+  padding: 20px;
+  padding: 0; /* You can also add the same key twice, but the latest value will be the one that's used. In this case, the padding will be 0 for the body tag */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--header-font);
+  text-transform: uppercase;
+
+  padding: 0;
+  margin: 0;
+
+  color: var(--secondary);
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  user-select: none;
+}
+
+p {
+  font-size: 15px;
+}
+
+ul {
+
+}
+
+li {
+
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+}
+
+article {
+
+}
+
+div {
+
+}
+
+.div-1 {
+
+}
+
+.div-2 {
+
+}
+
+aside {
+
+}
+
+footer {
+
+}
+
+.Banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  background: white;
+  padding: 15px;
+  font-family: var(--logo-font);
+  border-bottom: var(--ui-shadow-border);
+  box-shadow: var(--ui-shadow);
+}
+
+.Message {
+  background: white;
+  padding: 30px;
+  border-bottom: var(--ui-shadow-border);
+  box-shadow: var(--ui-shadow);
+}
+
+.Message > .Artist {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5em;
+  color: #aaa;
+}
+
+.Playlist {
+  background: white;
+  padding: 30px;
+  border-bottom: var(--ui-shadow-border);
+  box-shadow: var(--ui-shadow);
+}
+
+.Playlist  > .Tracks {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5em;
+}
+
+.Contact > .Details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  background: white;
+  padding: 15px;
+  border-bottom: var(--ui-shadow-border);
+  box-shadow: var(--ui-shadow);
+}
