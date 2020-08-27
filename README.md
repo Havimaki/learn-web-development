@@ -6,7 +6,7 @@ An interactive lesson in Web Development. Each chapter points to its respective 
 - [Ch 1     - Learn HTML](https://github.com/Havimaki/learn-web-development/tree/1-html)
 - [Ch 2     - Learn CSS](https://github.com/Havimaki/learn-web-development/tree/2-css)
 - [Ch 3     - Learn JS](https://github.com/Havimaki/learn-web-development/tree/3-js)
-- [Ch 4     - Learn Folder Structures](https://github.com/Havimaki/learn-web-development/tree/4-file-structure)
+- [Ch 4     - Learn Folder Structures](https://github.com/Havimaki/learn-web-development/tree/4-folder-structure)
 
 ---
 
