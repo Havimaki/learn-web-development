@@ -11,13 +11,13 @@ An interactive lesson in Web Development.
 
 ### TODO:
 - [x] HTML
-- [] CSS
-  - [] SASS
-  - [] styled components
-  - [] Flexbox
-- [] src folder vs public folder
-- []file suffix (.html, .css, .js)
-- [] Responsive Design  
-- [] JS
-  - [] separation of concerns vs inline
+- [ ] CSS
+  - [ ] SASS
+  - [ ] styled components
+  - [ ] Flexbox
+- [ ] src folder vs public folder
+- [ ]file suffix (.html, .css, .js)
+- [ ] Responsive Design  
+- [ ] JS
+  - [ ] separation of concerns vs inline
 - Framework libraries
