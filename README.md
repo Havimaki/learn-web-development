@@ -16,8 +16,8 @@ An interactive lesson in Web Development.
   - [ ] styled components
   - [ ] Flexbox
 - [ ] src folder vs public folder
-- [ ]file suffix (.html, .css, .js)
+- [ ] file suffix (.html, .css, .js)
 - [ ] Responsive Design  
 - [ ] JS
   - [ ] separation of concerns vs inline
-- Framework libraries
+- [ ] Framework libraries
