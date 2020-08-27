@@ -1,15 +1,23 @@
 # learn-web-development
 An interactive lesson in Web Development.
 
+## Table Of Contents (In Progress)
+- [Ch 1     - Learn HTML](https://github.com/Havimaki/learn-web-development/tree/1-html)
+- [Ch 2     - Learn CSS](https://github.com/Havimaki/learn-web-development/tree/2-css)
+- [Ch 3     - Learn JS](https://github.com/Havimaki/learn-web-development/tree/3-js)
+- [Ch 4     - Learn Folder Structures](https://github.com/Havimaki/learn-web-development/tree/4-file-structure)
 
-## TODO:
-- src folder vs public folder
-- file suffix (.html, .css, .js)
-- CSS
-  - SASS
-  - styled components
-- JS
-  - separation of concerns vs inline
-- Flexbox
-- Responsive Design
-- Framework libraries
+---
+
+### TODO:
+- [x] HTML
+- [ ] CSS
+  - [ ] SASS
+  - [ ] styled components
+  - [ ] Flexbox
+- [ ] src folder vs public folder
+- [ ] file suffix (.html, .css, .js)
+- [ ] Responsive Design  
+- [ ] JS
+  - [ ] separation of concerns vs inline
+- [ ] Framework libraries
